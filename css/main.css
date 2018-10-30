@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background-image: linear-gradient(
+        rgba(0, 255, 64, 0.45), 
+        rgba(0, 162, 255, 0.623)
+      )
+      ,url('/assets/bastei.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper {
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.title-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.7;
+}
